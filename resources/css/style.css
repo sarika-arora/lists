@@ -1,0 +1,186 @@
+html {
+  font-size: 16px;
+}
+
+/* a */
+
+a {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(2, 28, 30);
+  line-height: 1.5;
+}
+
+a:hover {
+  color: rgb(89, 164, 200);
+}
+
+/* Header Section */
+
+header {
+  height: 5rem;
+  background-color: rgb(253, 222, 211);
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  margin: -1rem;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0.5rem 1.5rem;
+}
+
+.app {
+  display: flex;
+  align-items: center;
+}
+
+.app img {
+  height: 3rem;
+}
+
+.app-name {
+  font-size: 2rem;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+  padding: .5rem;
+}
+
+ul li {
+  display: inline;
+  font-size: 1.15rem;
+}
+
+.menu-item {
+  padding-right: 1rem;
+}
+
+/* Main Section */
+
+main {
+  top: 4rem;
+  margin-bottom: 4rem;
+  position: relative;
+  z-index: 5;
+  width: 100%;
+}
+
+/* Your List */
+
+.list-section {
+  display: flex;
+  padding: 2rem 2.5rem;
+  background-color: rgba(254, 240, 236, 0.7);
+  flex-direction: column;
+  min-height: 45rem;
+}
+
+.list-section h1 {
+  margin-bottom: 1rem;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  color: rgb(252, 203, 187);
+  line-height: 1.3;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.add-list {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Button */
+
+button {
+  width: 15%;
+  height: 3rem;
+  margin: 2rem;
+  font-size: 1rem;
+  background-color: rgb(2, 28, 30);
+  color: rgb(241, 241, 242);
+  font-family: 'Quicksand', sans-serif;
+  border-radius: 1rem;
+}
+
+button:hover {
+  background-color: rgb(3, 71, 76);
+}
+
+button:active {
+  background-color: rgb(5, 123, 132);
+}
+
+/* Search */
+
+.search-lists {
+  width: 35rem;
+  height: 3rem;
+  padding: 1.5rem;
+}
+
+#search {
+  width: 20rem;
+  height: 2rem;
+  font-family: 'Quicksand', sans-serif;
+  color: rgb(128, 128, 128);
+  font-size: 1rem;
+}
+
+.search {
+  font-family: 'Quicksand', sans-serif;
+  color: rgb(2, 28, 30);
+  line-height: 1.3;
+  font-size: 2rem;
+}
+
+/* List Items */
+
+.list {
+  display: flex;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  flex-direction: column;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+}
+
+#edit {
+  height: 2rem;
+  margin: 1rem;
+}
+
+#list-item {
+  height: 2rem;
+  width: 25rem;
+  font-family: 'Quicksand', sans-serif;
+  color: rgb(128, 128, 128);
+  font-size: 1rem;
+}
+
+/* Footer Section */
+
+footer {
+  border-top: 0.10rem solid rgba(188, 186, 190, 0.7);
+  line-height: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  font-family: 'Quicksand', sans-serif;
+  color: rgb(2, 28, 30);
+}
+
+footer a:first-child {
+  padding-right: 1rem;
+}
